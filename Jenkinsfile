@@ -1,5 +1,7 @@
 node('maven') 
 {
+	git url: 'git@github.com:hhtay-paloit/clusterapp.git'
+
 	stage 'build'
 		echo 'building application'
 	stage 'deploy'	
