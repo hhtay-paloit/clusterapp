@@ -1,5 +1,5 @@
-node
+node('maven')
 {
 	stage 'build'
-		sh 'building an application' 
+		echo 'building an application' 
 }
